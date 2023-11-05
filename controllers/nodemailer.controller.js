@@ -13,10 +13,10 @@ const transporter = nodemailer.createTransport({
 });
 
 class NodemailerController {
-  async sendHelpMail(user_name, user_mail,user_phone,user_text) {
+  async sendHelpMail(user_name, user_mail, user_phone, user_text) {
     const mailOptions = {
       from: "gevent809@gmail.com",
-      to: 'themountok@gmail.com',
+      to: "themountok@gmail.com",
       subject: `Обратная связь от ${user_name}!.`,
       text: `${user_text}. Телефон ${user_phone}. Почта для связи ${user_mail}`,
     };
