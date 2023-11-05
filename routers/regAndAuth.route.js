@@ -4,7 +4,8 @@ const userController = require('../controllers/registration.controller');
 
 // router.get('/users',userController.getAllUsers);
 router.post('/sendHelpMail',userController.sendHelpMail);
-router.get('/test',userController.testQuery)
+router.post('/logIn',userController.logIn)
+router.post('/authentication',userController.authentication)
 
 
 

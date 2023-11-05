@@ -1,4 +1,3 @@
-const database = require('../database') // getPoolDB
 const all_events = require('../JSONDATE/EVENTS')
 
 
